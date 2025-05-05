@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+/dist
+/dist-ssr
+
+# Editor directories and files
+.DS_Store
+*.local
+
+# Large media files (should be hosted on a CDN)
+/src/assets/video/*.mp4
+/src/assets/video/*.MP4
+/src/assets/video/*.mov
+/src/assets/video/*.MOV
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
