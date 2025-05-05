@@ -8,7 +8,6 @@ import VolumeOffIcon from '@mui/icons-material/VolumeOff';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import AirIcon from '@mui/icons-material/Air';
 import { motion, useTransform, useViewportScroll } from 'framer-motion';
-import sampleVideo from '../assets/video/MKB2207.MP4';
 import MKB2411 from '../assets/video/MKB2411.MP4';
 
 const HeroSection = styled(Box)(({ theme }) => ({
@@ -246,7 +245,7 @@ const Home = () => {
             objectFit: 'cover',
           }}
         >
-          <source src={sampleVideo} type="video/mp4" />
+          <source src="/video/MKB2207.MP4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <Box sx={{ position: 'absolute', bottom: 20, right: 20, zIndex: 3 }}>
